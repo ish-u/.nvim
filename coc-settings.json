@@ -1,0 +1,7 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "snippets.ultisnips.directories": ["UltiSnips", "gosnippets/UltiSnips"],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/14.0.3/clangd_14.0.3/bin/clangd"
+}
