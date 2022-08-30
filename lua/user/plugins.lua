@@ -10,6 +10,8 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
     Plug('nvim-treesitter/nvim-treesitter', {['do'] = vim.fn[':TSUpdate']})
     Plug 'nvim-lua/plenary.nvim'
     Plug('nvim-telescope/telescope.nvim', { tag='0.1.0' })
+    Plug 'lewis6991/gitsigns.nvim'
+    Plug 'romgrk/barbar.nvim'
 
 vim.call('plug#end')
 

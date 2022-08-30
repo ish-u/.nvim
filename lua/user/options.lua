@@ -1,10 +1,10 @@
 vim.opt.number = true
 vim.opt.scrolloff = 8
-vim.opt.tabstop = 2
-vim.opt.softtabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
-vim.opt.mouse = "a"
+vim.opt.mouse = ""
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
 vim.opt.swapfile = false
