@@ -26,6 +26,8 @@ keymap('n', '<leader>.', ':BufferNext<CR>', opts)
 keymap('n', '<A-c>', ':BufferClose<CR>', opts)
 
 -- Moving Remaps
-keymap('n', '<A-down>', ':m +1<CR>', opts)
-keymap('n', '<A-up>', ':m -2<CR>', opts)
+keymap('n', '<A-k>', ':m +1<CR>', opts)
+keymap('n', '<A-j>', ':m -2<CR>', opts)
 
+-- Prettier
+keymap('n', '<leader>fd', ':CocCommand prettier.forceFormatDocument<CR>', opts)
